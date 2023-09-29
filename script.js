@@ -11,6 +11,12 @@
 
 // alert(displayText);
 
-let testElement = document.getElementById("level");
+const testElement = document.getElementById("level");
 let levelCount = 1;
-
+ while(gay){
+	 if (levelElement.tagName == 'HTML' ) {
+	 	break;
+	 } 
+	 testElement = testElement.parentNode;
+	 levelCount++;
+ }
