@@ -13,10 +13,12 @@
 
 const testElement = document.getElementById("level");
 let levelCount = 1;
- while(gay){
-	 if (levelElement.tagName == 'HTML' ) {
+ while(true){
+	 if (levelElement.tagName == "HTML" ) {
 	 	break;
 	 } 
 	 testElement = testElement.parentNode;
 	 levelCount++;
  }
+
+alert(`The level of the element is: ${levelCount}`);
