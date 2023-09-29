@@ -14,7 +14,7 @@
 let testElement = document.getElementById("level");
 let levelCount = 1;
  while(true){
-	 if (levelElement.tagName === "HTML" ) {
+	 if (testElement.tagName === "HTML" ) {
 	 	break;
 	 } 
 	 testElement = testElement.parentNode;
